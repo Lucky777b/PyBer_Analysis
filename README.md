@@ -1,7 +1,7 @@
 # PyBer_Analysis
 
 ## Purpose
-  For this project, I was tasked with performing an analysis for PyBer, a python-based ride sharing app company, in which I was given two datasets. The datasets contained information for the type of city and the number of drivers and rider data. Merging the datasets into one allowed me to prepare visualizations that could illustrate the relationship between the datasets. Matplotlib is a graphing and plotting library for Python, and NumPy is a numerical mathematics library that is used for making arrays and matrices. Importing these libraries into jupyter notebook, statistical analysis of the data used for the desired charts can be performed and implemented to create multiple chart types, for example, line, bar, scatter, or box and whisker plots. 
+  For this project, I was tasked with performing an analysis for PyBer, a python-based ride sharing app company, in which I was given two datasets. The datasets contained information for the type of city and the number of drivers and rider data. Merging the datasets into one allowed me to prepare visualizations that could illustrate the relationship between the datasets. Matplotlib is a graphing and plotting library for Python. Importing the Matplotlib library into jupyter notebook, is a useful tool to be able to create multiple chart types, for example, line, bar, scatter, or box and whisker plots. 
 
 ## Overview Of Analysis 
   The PyBer company wanted me to create a multiple-line graph, which would show the total weekly fares for each city type, and a summary report of how the rider data differed by city type. The city types being evaluated were in Urban, Suburban, and Rural areas.A visualization of the total weekly fares for each city type would make it easier to see the weekly fares for all 3 city types in one line chart, versus, looking at the total weekly fares of each type in 3 different charts. 
@@ -10,7 +10,7 @@
 
 ## Resources 
 * Data Source: city_data.csv, ride_data.csv
-* Python 3.9.12, Anaconda 4.13.0 (Jupyter Notebook, Pandas Library, Matplotlib, NumPy)
+* Python 3.9.12, Anaconda 4.13.0 (Jupyter Notebook, Pandas Library, Matplotlib)
 
 ## The Data
   First, I had to determine total rides, total drivers, and total fares for each city type, which was done using the groupby() function, (Fig. A). Following those determinations, a mathematical equation was used to determine the average fares per ride, and average fares per driver, (Fig. B). 
